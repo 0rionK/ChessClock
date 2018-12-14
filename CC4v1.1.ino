@@ -1,13 +1,13 @@
+/*
+//reset by holding pause for 6-10 sec
+//adjust time by pausing, holding pause for 4 sec, then using P1/P2 buttons to move P1 time up or down, pause to confirm,
+//then it will have you repeat the process for P2's clock.
+*/
+
 #include "Melody.h"
 #include "TM1637.h"
 #include <TM1637Display.h>
 int8_t TimeDisp[] = {0x00,0x00,0x00,0x00};
-
-////////////////////////////////////////////
-//to do
-//modify reset timeer from 6-10 sec to something else. this is confusing
-//now unable to access time setting menu?
-///////////////////////////////////////////
 
 #define CLK_P1 5
 #define DIO_P1 6
